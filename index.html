@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>User Profile Dashboard with HTML &amp; CSS 👤 | Modern Dashboard UI</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="profile-dashboard">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark">◈</span>
+      <span>ProfileHub</span>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="#" class="nav-item active">⌂ <span>Overview</span></a>
+      <a href="#" class="nav-item">▣ <span>Projects</span></a>
+      <a href="#" class="nav-item">◉ <span>Messages</span></a>
+      <a href="#" class="nav-item">⚙ <span>Settings</span></a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <button type="button">↪ <span>Log out</span></button>
+    </div>
+  </aside>
+
+  <main class="dashboard-content">
+    <header class="dashboard-header">
+      <div>
+        <p class="eyebrow">ACCOUNT OVERVIEW</p>
+        <h1>Good morning, Saiful</h1>
+      </div>
+
+      <button class="notification-button" type="button" aria-label="Notifications">
+        ♢<span></span>
+      </button>
+    </header>
+
+    <section class="profile-banner">
+      <div class="profile-avatar">
+        <img
+          src="https://i.pravatar.cc/160?img=12"
+          alt="Saiful Islam"
+        >
+        <span class="online-dot"></span>
+      </div>
+
+      <div class="profile-intro">
+        <h2>Saiful Islam</h2>
+        <p>WordPress Developer · Dhaka, Bangladesh</p>
+        <span class="member-badge">Pro Member</span>
+      </div>
+
+      <button class="edit-button" type="button">Edit Profile</button>
+    </section>
+
+    <section class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-icon purple">▣</span>
+        <p>Total Projects</p>
+        <strong>48</strong>
+        <small>+12% this month</small>
+      </div>
+
+      <div class="stat-card">
+        <span class="stat-icon blue">✓</span>
+        <p>Completed Tasks</p>
+        <strong>126</strong>
+        <small>+8% this month</small>
+      </div>
+
+      <div class="stat-card">
+        <span class="stat-icon orange">★</span>
+        <p>Average Rating</p>
+        <strong>4.9</strong>
+        <small>Based on 32 reviews</small>
+      </div>
+    </section>
+
+    <section class="dashboard-grid">
+      <div class="panel activity-panel">
+        <div class="panel-heading">
+          <div>
+            <h2>Recent Activity</h2>
+            <p>Your latest account updates</p>
+          </div>
+          <a href="#">View all</a>
+        </div>
+
+        <div class="activity-list">
+          <div class="activity-item">
+            <span class="activity-icon green">✓</span>
+            <div>
+              <strong>Project completed</strong>
+              <p>Portfolio website redesign</p>
+            </div>
+            <time>2h ago</time>
+          </div>
+
+          <div class="activity-item">
+            <span class="activity-icon purple">✦</span>
+            <div>
+              <strong>New achievement unlocked</strong>
+              <p>Completed 100 tasks</p>
+            </div>
+            <time>Yesterday</time>
+          </div>
+
+          <div class="activity-item">
+            <span class="activity-icon orange">↗</span>
+            <div>
+              <strong>Profile viewed</strong>
+              <p>12 new profile visitors</p>
+            </div>
+            <time>2 days ago</time>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel skills-panel">
+        <div class="panel-heading">
+          <div>
+            <h2>Top Skills</h2>
+            <p>Your professional strengths</p>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-label">
+            <span>WordPress</span>
+            <strong>92%</strong>
+          </div>
+          <div class="skill-bar"><span style="width: 92%"></span></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-label">
+            <span>Elementor</span>
+            <strong>88%</strong>
+          </div>
+          <div class="skill-bar"><span style="width: 88%"></span></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-label">
+            <span>PHP Development</span>
+            <strong>76%</strong>
+          </div>
+          <div class="skill-bar"><span style="width: 76%"></span></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-label">
+            <span>UI Design</span>
+            <strong>68%</strong>
+          </div>
+          <div class="skill-bar"><span style="width: 68%"></span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+</body>
+</html>
